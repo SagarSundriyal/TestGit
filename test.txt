@@ -3,21 +3,7 @@ import javax.servlet.*;
 import java.io.*;
 public class DuplicateService extends HttpServlet
 {  
-	public void service(HttpServletRequest req,HttpServletResponse res) throws ServletException,IOException
-	{  
-		super.service(req,res);
-        res.setContentType("text/html");  
-        PrintWriter out = res.getWriter();
-		out.println("<body><html>");
-		out.println("duplicated service");
-		out.println("</body></html>");
-	}
-	public void doGet(HttpServletRequest req,HttpServletResponse res)  throws ServletException,IOException
-	{  
-        res.setContentType("text/html");  
-        PrintWriter out = res.getWriter();
-		out.println("<html><body>");
-		out.println("dservice");
-		out.println("</body></html>");
-	}
+	ABCD
+	
+	EFGH
 }
